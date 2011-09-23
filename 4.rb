@@ -64,3 +64,21 @@ puts 'Tom < Jeff: ' + (tom < jeff).inspect
 puts 'Fred < Jeff: ' + (fred < jeff).inspect
 puts
 
+
+#Namespacing
+module Loud
+	class Person
+
+		def hi
+			'HHHHIIIIIII!!!!!'
+		end
+
+	end
+end
+
+percy = Loud::Person.new
+puts 'Jeff still says hi: ' + jeff.hi
+puts 'Loud Percy says hi: ' + percy.hi
+puts
+
+
