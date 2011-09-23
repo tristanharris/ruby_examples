@@ -11,11 +11,13 @@ Examples of interesting bits of Ruby
 Setup RVM
 ---------
 
-bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+	bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
 
-#install ruby
-rvm install 1.9.2
+Install ruby
 
-#use gemset
-rvm --create use 1.9.2@learning
+	rvm install 1.9.2
+
+Use gemset
+
+	rvm --create use 1.9.2@learning
 
