@@ -58,9 +58,9 @@ class Person
 
 end
 
-names = %w{Tom AlfonzoBongo George Fred}
-people = names.map{|name| Person.new(name)}
-puts 'Short people first'
-puts people.sort.inspect
+tom = Person.new('Tom')
+fred = Person.new('Fred')
+puts 'Tom < Jeff: ' + (tom < jeff).inspect
+puts 'Fred < Jeff: ' + (fred < jeff).inspect
 puts
 
